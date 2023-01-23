@@ -1,7 +1,8 @@
 import { useState } from "react"
 import './App.css';
+import { findBestLinkStation } from './components/LinkStationFinder'
 
-function GetLinkedStationtoConnect(x, y) {
+/* function GetLinkedStationtoConnect(x, y) {
   let allLinkStation = [
       [0, 0, 10],
       [20, 20, 5],
@@ -38,7 +39,8 @@ function GetLinkedStationtoConnect(x, y) {
     return `Best link station for point ${x},${y} is ${prefered_linkedStation_data[0]},${prefered_linkedStation_data[1]} with power ${power}`;
   }
   
-}
+};
+*/
 
 function App() {
   const [position, setPosition] = useState({x: "", y: ""});
@@ -52,7 +54,7 @@ function App() {
     if(position.x == "" || position.y == "" ) {
       return alert("please enter valid position of x and y")
     }
-    let data = GetLinkedStationtoConnect(
+    let data = findBestLinkStation(
       parseInt(position.x),
       parseInt(position.y)
     );
