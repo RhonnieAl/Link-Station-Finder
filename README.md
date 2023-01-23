@@ -52,3 +52,7 @@ Print out function output from points (x, y):
 ## To read the JS script code:
 
 Please see the `LinkStationFinder.js` file, under `Components` inside `src` folder
+
+## To read deployed React-App code:
+
+Please see the `App.js` file, under `src` folder
