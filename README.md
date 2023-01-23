@@ -48,3 +48,7 @@ Print out function output from points (x, y):
 - (100, 100), 
 - (15,10)
 - (18, 18)
+
+## To read the JS script code:
+
+Please see the `LinkStationFinder.js` file, under `Components` inside `src` folder
