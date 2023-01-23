@@ -2,46 +2,6 @@ import { useState } from "react"
 import './App.css';
 import findBestLinkStation from './components/LinkStationFinder.js'
 
-/* function GetLinkedStationtoConnect(x, y) {
-  let allLinkStation = [
-      [0, 0, 10],
-      [20, 20, 5],
-      [10, 0, 12],
-  ];
-
-  let power = 0;
-  let prefered_linkedStation_data = [];
-
-  for (let i = 0; i < allLinkStation.length; i++) {
-      let currentLinkStation = allLinkStation[i];
-      let distance = Math.sqrt(
-          Math.pow(currentLinkStation[0] - x, 2) +
-          Math.pow(currentLinkStation[1] - y, 2)
-      );
-      
-      if (distance > currentLinkStation[2]) {
-          continue;
-      } 
-      else {
-          let currrent_power = Math.pow(currentLinkStation[2] - distance, 2);
-  
-          if (currrent_power > power) {
-              power = currrent_power;
-              prefered_linkedStation_data = currentLinkStation;
-          }
-      }
-  }
-  
-  if (power == 0) {
-    return `No link station within reach for point ${x},${y}`;
-  } 
-  else {
-    return `Best link station for point ${x},${y} is ${prefered_linkedStation_data[0]},${prefered_linkedStation_data[1]} with power ${power}`;
-  }
-  
-};
-*/
-
 function App() {
   const [position, setPosition] = useState({x: "", y: ""});
   const [result, setResult] = useState(null);
