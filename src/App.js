@@ -1,6 +1,6 @@
 import { useState } from "react"
 import './App.css';
-import { findBestLinkStation } from './components/LinkStationFinder'
+import findBestLinkStation from './components/LinkStationFinder.js'
 
 /* function GetLinkedStationtoConnect(x, y) {
   let allLinkStation = [
