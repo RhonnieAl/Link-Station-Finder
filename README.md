@@ -10,7 +10,7 @@ The problem is solved in 2-dimensional space.
 
 ## Follow the steps below to find your most suitable Link Station available:
 
-1. Visit following link to use the app: https://link-station-finder-7ed8rbqsg-rhonnieal.vercel.app
+1. Visit following link to use the app: https://link-station-finder.vercel.app
 2. To find the most suitable Link Station for your Device, please input your device's coordinates (x, y) into the input field - input fields only accept numbers on the cartesian plane. You can start with the following device locations : `(0,0), (100, 100), 15,10), (18, 18)`
 3. Click the button to see the `coordinates` and `power` of the most suitable Link Station available to you
 
