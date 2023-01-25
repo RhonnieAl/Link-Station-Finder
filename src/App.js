@@ -42,13 +42,31 @@ function App() {
   */
   return (
     <div className="container p-5">
-      <h3 className= "text-center">Find Nearest LinkStation</h3>
-      <input type="number" onChange={handleChange} placeholder="Please enter x coordinate" className="form-control col-12 m-3" name="x" />
-      <input type="number" onChange={handleChange} placeholder="Please enter y coordinate" className="form-control col-12 m-3" name="y" />
-      <button type="button" onClick={handleSubmit} className= "btn btn-primary ms-3">Find Suitable LinkSation</button>
+      <h3 className="text-center">Find Nearest LinkStation</h3>
+      <input 
+        type="number" 
+        onChange={handleChange} 
+        placeholder="Please enter x coordinate" 
+        className="form-control col-12 m-3" 
+        name="x" 
+      />
+      <input 
+        type="number" 
+        onChange={handleChange} 
+        placeholder="Please enter y coordinate" 
+        className="form-control col-12 m-3" 
+        name="y" 
+      />
+      <button 
+        type="button" 
+        onClick={handleSubmit} 
+        className= "btn btn-primary ms-3">
+          Find Suitable LinkSation
+      </button>
       <br />
       <br />
-      <p>Result : {result} </p>
+      <p>Result : {result}</p>
+
     </div>
   );
 }
