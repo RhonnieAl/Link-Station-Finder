@@ -12,8 +12,7 @@ function App() {
 
   const handleChange=(e) => {
     // Update the variable "position" 
-    setPosition({...position, [e.target.name]: e.target.value
-    })
+    setPosition({...position, [e.target.name]: e.target.value})
   }
 
   // Call findBestLinkStation component and run script when Button is clicked
